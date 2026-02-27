@@ -1,4 +1,4 @@
-import { Outlet, useLocation, useNavigation } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import SideNav from "../components/SideNav";
 import NavBar from "../components/NavBar";
 import { useEffect } from "react";

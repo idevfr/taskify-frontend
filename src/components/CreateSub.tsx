@@ -1,4 +1,3 @@
-// import { GrCheckmark, GrClose } from "react-icons/gr";
 import React, { useState } from "react";
 import AppLayout from "../layouts/AppLayout";
 import Tasks from "./Tasks";
@@ -6,7 +5,6 @@ import { useParams } from "react-router-dom";
 import { useCreatesub } from "../hooks/useCreateSub";
 import Loader from "../ui/Loader";
 import { useGetAllSub } from "../hooks/useGetAllSub";
-// taskName completeWithin
 function CreateSub() {
   const [taskTime, setTaskTime] = useState("");
   const [taskTitle, setTaskTitle] = useState("");
