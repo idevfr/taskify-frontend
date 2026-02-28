@@ -4,10 +4,10 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  server: {
-    proxy: {
-      "/api": "https://taskify-backend-rli6.onrender.com/",
-      // "/api": "http://localhost:3000",
-    },
-  },
+  // server: {
+  //   proxy: {
+  //     "/api": "https://taskify-backend-rli6.onrender.com/",
+  //     // "/api": "http://localhost:3000",
+  //   },
+  // },
 });

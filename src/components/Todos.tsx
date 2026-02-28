@@ -4,6 +4,7 @@ import Todo from "./Todo";
 
 function Todos() {
   const { todos } = useTodos();
+  console.log(import.meta.env.VITE_API_URL);
   return (
     <AppLayout overflowALlowed={true}>
       <div className="grid grid-cols-4 place-items-center gap-6 p-10">

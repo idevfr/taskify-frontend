@@ -1,5 +1,5 @@
 import axios from "axios";
 export const todoInstance = axios.create({
-  baseURL: "/api/v1/todo",
+  baseURL: `${import.meta.env.VITE_API_URL}/api/v1/todo`,
   withCredentials: true,
 });

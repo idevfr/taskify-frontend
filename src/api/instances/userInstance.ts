@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const userInstance = axios.create({
-  baseURL: "/api/v1/users",
+  baseURL: `${import.meta.env.VITE_API_URL}/api/v1/users`,
   withCredentials: true,
 });
